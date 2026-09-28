@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TalkSum AI — Privacy Policy</title>
+<meta name="description" content="TalkSum AI records and transcribes on your phone. Nothing is collected, nothing is uploaded.">
+<meta name="robots" content="index, follow">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230F766E'/%3E%3Cg fill='%23fff'%3E%3Crect x='7' y='13' width='2.6' height='6' rx='1.3'/%3E%3Crect x='12' y='9' width='2.6' height='14' rx='1.3'/%3E%3Crect x='17' y='11' width='2.6' height='10' rx='1.3'/%3E%3Crect x='22' y='14' width='2.6' height='4' rx='1.3'/%3E%3C/g%3E%3C/svg%3E">
+<style>
+  /* Tokens mirror docs/DESIGN.md §2.1 so the page feels like the app. */
+  :root {
+    --base: #EDF0F3;
+    --surface: #FFFFFF;
+    --ink: #1B242C;
+    --ink-muted: #667380;
+    --line: #D9DEE3;
+    --primary: #0F766E;
+    --on-primary: #FFFFFF;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --base: #0F1519;
+      --surface: #18212A;
+      --ink: #E8ECEF;
+      --ink-muted: #8B98A5;
+      --line: #243039;
+      --primary: #2DD4BF;
+      --on-primary: #062B27;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--base);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.55;
+  }
+  main {
+    max-width: 44rem;
+    margin: 0 auto;
+    padding: 40px 20px 72px;
+  }
+  header.masthead {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+  }
+  .mark {
+    display: flex;
+    align-items: flex-end;
+    gap: 3px;
+    height: 26px;
+  }
+  .mark span {
+    display: block;
+    width: 4px;
+    border-radius: 999px;
+    background: var(--primary);
+  }
+  .mark span:nth-child(1) { height: 10px; }
+  .mark span:nth-child(2) { height: 22px; }
+  .mark span:nth-child(3) { height: 16px; }
+  .mark span:nth-child(4) { height: 7px; }
+  .wordmark {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+  h1 {
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    margin: 16px 0 4px;
+  }
+  .updated {
+    color: var(--ink-muted);
+    font-size: 13px;
+    margin: 0 0 28px;
+  }
+  .lede {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 18px 20px;
+    margin: 0 0 32px;
+  }
+  .lede p { margin: 0; }
+  .lede p + p { margin-top: 10px; }
+  h2 {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    margin: 36px 0 10px;
+    padding-top: 22px;
+    border-top: 1px solid var(--line);
+  }
+  p { margin: 0 0 14px; }
+  ul { margin: 0 0 14px; padding-left: 22px; }
+  li { margin-bottom: 8px; }
+  strong { font-weight: 600; }
+  code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 0.88em;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 1px 5px;
+  }
+  a { color: var(--primary); text-underline-offset: 2px; }
+  nav.langs {
+    display: flex;
+    gap: 8px;
+    margin: 0 0 32px;
+  }
+  nav.langs a {
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--ink);
+    border: 1px solid var(--line);
+    background: var(--surface);
+    border-radius: 999px;
+    padding: 7px 16px;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+  nav.langs a[aria-current="true"] {
+    background: var(--primary);
+    border-color: var(--primary);
+    color: var(--on-primary);
+  }
+  footer {
+    margin-top: 48px;
+    padding-top: 22px;
+    border-top: 1px solid var(--line);
+    color: var(--ink-muted);
+    font-size: 13px;
+  }
+  footer p { margin: 0 0 6px; }
+  section[hidden] { display: none; }
+</style>
+</head>
+<body>
+<main>
+  <header class="masthead">
+    <span class="mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span>
+    <span class="wordmark">TalkSum AI</span>
+  </header>
+
+  <nav class="langs" aria-label="Language">
+    <a href="#en" id="tab-en" aria-current="true">English</a>
+    <a href="#id" id="tab-id">Bahasa Indonesia</a>
+  </nav>
+
+  <section id="en" lang="en">
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: 18 September 2026</p>
+
+    <div class="lede">
+      <p>TalkSum AI is a voice recorder that turns speech into text on your phone. It is made by
+        SOGE Digital Valley (&ldquo;we&rdquo;). This policy explains what happens to your data.</p>
+      <p>The short version: <strong>we do not collect it.</strong></p>
+    </div>
+
+    <h2>What TalkSum stores, and where</h2>
+    <ul>
+      <li><strong>Recordings, transcripts, summaries and settings</strong> are saved only in TalkSum&rsquo;s
+        private storage on your phone. They are never uploaded to us or to anyone else.</li>
+      <li><strong>Speech recognition and summaries run entirely on your phone.</strong> Audio is not sent
+        to any server.</li>
+      <li><strong>Exports</strong> (Word, PDF, text) go only where you choose: a folder on your phone, or
+        an app you pick in the share sheet. What that app does with the file is covered by its own policy.</li>
+      <li>TalkSum excludes your recordings from Google cloud backup. When you move to a new phone with
+        Android&rsquo;s cable or Wi-Fi transfer, recordings can come along.</li>
+    </ul>
+
+    <h2>Internet use</h2>
+    <p>TalkSum uses the internet for one thing only: <strong>downloading a speech or summary model that you
+      ask for</strong>. The download comes from a public file host (GitHub or Hugging Face). Like any web
+      server, that host can see your IP address and the file requested; it receives no recordings, text or
+      identifiers from TalkSum. Everything else works in airplane mode.</p>
+
+    <h2>What we do not do</h2>
+    <ul>
+      <li>No account or sign-in.</li>
+      <li>No analytics, advertising or crash-reporting SDKs.</li>
+      <li>No tracking, profiling, or selling or sharing of data.</li>
+    </ul>
+
+    <h2>Voluntary support payments</h2>
+    <p>TalkSum is free. You can choose to support it from Settings &rarr; Support TalkSum. That payment is
+      handled entirely by Google Play under Google&rsquo;s privacy policy: TalkSum never sees your card,
+      wallet or account details. TalkSum only receives Google Play&rsquo;s confirmation that a support
+      purchase succeeded, and remembers on your phone that you are a supporter. The Play Billing
+      Library&rsquo;s own diagnostic logging is removed from TalkSum. No recording or transcript is involved.</p>
+
+    <h2>Permissions</h2>
+    <ul>
+      <li><strong>Microphone</strong>: only to record when you press record.</li>
+      <li><strong>Notifications</strong>: to show that recording or transcription is running, and an
+        optional reminder about a recording that has not been transcribed yet. You can turn it off in Settings.</li>
+      <li><strong>Internet</strong>: only for model downloads, as described above.</li>
+      <li><strong>Google Play billing</strong> (<code>com.android.vending.BILLING</code>): only when you open
+        Support TalkSum or complete a support payment.</li>
+    </ul>
+
+    <h2>Deleting your data</h2>
+    <p>Delete a recording inside TalkSum, or uninstall the app to remove everything it stored. We hold no
+      copy, so there is nothing to request from us.</p>
+
+    <h2>Children</h2>
+    <p>TalkSum is not directed at children and collects no personal information from anyone.</p>
+
+    <h2>Changes</h2>
+    <p>If this policy changes, the new version will be published at this address with a new date.</p>
+
+    <h2>Contact</h2>
+    <p>Questions: <a href="mailto:wiraswastika@gmail.com">wiraswastika@gmail.com</a></p>
+  </section>
+
+  <section id="id" lang="id" hidden>
+    <h1>Kebijakan Privasi</h1>
+    <p class="updated">Terakhir diperbarui: 18 September 2026</p>
+
+    <div class="lede">
+      <p>TalkSum AI adalah perekam suara yang mengubah ucapan menjadi teks di HP Anda, dibuat oleh
+        SOGE Digital Valley (&ldquo;kami&rdquo;).</p>
+      <p>Singkatnya: <strong>kami tidak mengumpulkan data Anda.</strong></p>
+    </div>
+
+    <h2>Apa yang disimpan TalkSum, dan di mana</h2>
+    <ul>
+      <li><strong>Rekaman, transkrip, ringkasan, dan pengaturan</strong> hanya disimpan di penyimpanan
+        privat TalkSum di HP Anda, tidak pernah diunggah ke kami atau pihak lain.</li>
+      <li><strong>Pengenalan suara dan ringkasan berjalan sepenuhnya di HP.</strong> Audio tidak dikirim
+        ke server mana pun.</li>
+      <li><strong>Ekspor</strong> (Word, PDF, teks) hanya pergi ke tempat yang Anda pilih: folder di HP
+        atau aplikasi yang Anda pilih di menu bagikan.</li>
+      <li>Rekaman tidak ikut dicadangkan ke cloud Google. Saat pindah HP lewat kabel atau Wi-Fi, rekaman
+        bisa ikut dipindahkan.</li>
+    </ul>
+
+    <h2>Penggunaan internet</h2>
+    <p><strong>Internet hanya dipakai untuk mengunduh model</strong> yang Anda minta, dari host file publik
+      (GitHub atau Hugging Face). Host tersebut dapat melihat alamat IP dan nama file, tetapi tidak menerima
+      rekaman, teks, atau pengenal apa pun dari TalkSum. Selebihnya aplikasi berjalan penuh dalam mode pesawat.</p>
+
+    <h2>Yang tidak kami lakukan</h2>
+    <ul>
+      <li>Tanpa akun atau masuk log.</li>
+      <li>Tanpa SDK analitik, iklan, atau pelapor crash.</li>
+      <li>Tanpa pelacakan, pembuatan profil, penjualan, atau berbagi data.</li>
+    </ul>
+
+    <h2>Dukungan sukarela</h2>
+    <p>TalkSum gratis. Anda dapat memberi dukungan lewat Settings &rarr; Dukung TalkSum. Pembayaran itu
+      diproses sepenuhnya oleh Google Play sesuai kebijakan privasi Google: TalkSum tidak pernah melihat data
+      kartu, dompet digital, atau akun Anda. TalkSum hanya menerima konfirmasi dari Google Play bahwa
+      pembelian berhasil, lalu mengingat di HP Anda bahwa Anda seorang pendukung. Logging diagnostik milik
+      Play Billing Library dihapus dari TalkSum. Tidak ada rekaman atau transkrip yang terlibat.</p>
+
+    <h2>Izin</h2>
+    <ul>
+      <li><strong>Mikrofon</strong>: hanya saat Anda menekan rekam.</li>
+      <li><strong>Notifikasi</strong>: menampilkan status rekam atau transkripsi yang sedang berjalan, dan
+        pengingat opsional untuk rekaman yang belum ditranskrip. Dapat dimatikan di Settings.</li>
+      <li><strong>Internet</strong>: hanya untuk unduhan model, seperti dijelaskan di atas.</li>
+      <li><strong>Google Play billing</strong> (<code>com.android.vending.BILLING</code>): hanya saat Anda
+        membuka Dukung TalkSum atau menyelesaikan pembayaran dukungan.</li>
+    </ul>
+
+    <h2>Menghapus data Anda</h2>
+    <p>Hapus rekaman di dalam TalkSum, atau copot aplikasi untuk menghapus semua yang disimpannya. Kami tidak
+      menyimpan salinan, jadi tidak ada yang perlu diminta kepada kami.</p>
+
+    <h2>Anak-anak</h2>
+    <p>TalkSum tidak ditujukan untuk anak-anak dan tidak mengumpulkan informasi pribadi dari siapa pun.</p>
+
+    <h2>Perubahan</h2>
+    <p>Bila kebijakan ini berubah, versi baru akan diterbitkan di alamat ini dengan tanggal baru.</p>
+
+    <h2>Kontak</h2>
+    <p>Pertanyaan: <a href="mailto:wiraswastika@gmail.com">wiraswastika@gmail.com</a></p>
+  </section>
+
+  <footer>
+    <p>TalkSum AI &middot; SOGE Digital Valley</p>
+    <p><a href="mailto:wiraswastika@gmail.com">wiraswastika@gmail.com</a></p>
+  </footer>
+</main>
+
+<script>
+  // Language tabs. Without JavaScript both sections are still reachable:
+  // the Indonesian one is revealed by the :target rule fallback below.
+  (function () {
+    var sections = { en: document.getElementById('en'), id: document.getElementById('id') };
+    var tabs = { en: document.getElementById('tab-en'), id: document.getElementById('tab-id') };
+
+    function show(lang) {
+      if (!sections[lang]) lang = 'en';
+      Object.keys(sections).forEach(function (key) {
+        sections[key].hidden = key !== lang;
+        tabs[key].setAttribute('aria-current', String(key === lang));
+      });
+      document.documentElement.lang = lang;
+    }
+
+    function fromHash() {
+      show((location.hash || '#en').slice(1));
+    }
+
+    window.addEventListener('hashchange', fromHash);
+    fromHash();
+  })();
+</script>
+<noscript>
+  <style>
+    section[hidden] { display: block; }
+    nav.langs { display: none; }
+  </style>
+</noscript>
+</body>
+</html>
