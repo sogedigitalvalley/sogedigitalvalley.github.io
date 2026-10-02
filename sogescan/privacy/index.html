@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kebijakan Privasi — SogeScan</title>
+<meta name="description" content="Kebijakan privasi aplikasi Android SogeScan (id.inovasi.scanner) dari Andro Media.">
+<style>
+  :root { --bg: #ffffff; --fg: #1c1c1c; --muted: #555555; --link: #1f5be0; --line: #dddddd; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #121212; --fg: #e8e8e8; --muted: #a8a8a8; --link: #8fb4ff; --line: #333333; }
+  }
+  body { background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; margin: 0; }
+  main { max-width: 760px; margin: 0 auto; padding: 24px 16px 48px; }
+  h1 { font-size: 1.6em; line-height: 1.3; margin: 0 0 4px; }
+  h2 { font-size: 1.25em; margin-top: 2em; }
+  a { color: var(--link); overflow-wrap: anywhere; }
+  .meta { color: var(--muted); margin: 0 0 16px; }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 40px 0; }
+  nav a { margin-right: 16px; }
+</style>
+</head>
+<body>
+<main>
+<nav><a href="#id">Bahasa Indonesia</a><a href="#en">English</a></nav>
+
+<section id="id" lang="id">
+<h1>Kebijakan Privasi SogeScan</h1>
+<p class="meta">Berlaku sejak 2 Oktober 2026 · Aplikasi Android id.inovasi.scanner · Pengembang: Andro Media</p>
+<p>Kebijakan ini menjelaskan data apa yang diproses aplikasi SogeScan ("aplikasi"), untuk apa, dan pilihan apa yang Anda miliki.</p>
+
+<h2>Ringkasan</h2>
+<ul>
+  <li>Tidak ada akun, pendaftaran, atau login.</li>
+  <li>Dokumen yang Anda pindai hanya disimpan di perangkat. Pemindaian, pengenalan teks (OCR), pembuatan PDF, pencarian, dan Baca Keras berjalan di ponsel dan tetap berfungsi tanpa internet. Pengembang tidak pernah menerima dokumen Anda.</li>
+  <li>Mulai 30 hari setelah dipasang, versi Google Play menampilkan satu banner iklan Google AdMob di Beranda, Pencarian, dan Pengaturan. Sebelum itu SDK iklan tidak dijalankan.</li>
+  <li>Tidak ada SDK analitik, pelacak, atau pelapor crash pihak ketiga.</li>
+</ul>
+
+<h2>1. Dokumen dan data di perangkat</h2>
+<p>Gambar pindaian, teks hasil OCR, berkas PDF, salinan kartu identitas, Watermark Pelindung, tanda tangan, folder, dan pengaturan disimpan di penyimpanan internal aplikasi di perangkat Anda. Data ini tidak dikirim ke pengembang dan tidak pernah diberikan ke SDK iklan.</p>
+<p>Pemindai memakai Google ML Kit Document Scanner yang berjalan di Google Play services pada perangkat Anda; aplikasi sendiri tidak meminta izin kamera. Pengenalan teks memakai model ML Kit yang dibundel di aplikasi. Komponen ML Kit dapat mengirim data diagnostik dan penggunaan API (misalnya kinerja dan versi) ke Google, tetapi tidak mengirim gambar atau teks dokumen Anda. Lihat <a href="https://developers.google.com/ml-kit/terms">ketentuan ML Kit</a>.</p>
+<p>Baca Keras memakai mesin teks-ke-ucapan (text-to-speech) yang terpasang di ponsel Anda. Teks dokumen diteruskan ke mesin itu di perangkat; mesin yang Anda pilih di Setelan Android tunduk pada kebijakan pembuatnya.</p>
+<p>Aplikasi tidak memakai pencadangan otomatis Android. Fitur "Cadangkan semua" di aplikasi menulis satu berkas terenkripsi ke lokasi yang Anda pilih sendiri; bila Anda memilih folder yang disinkronkan ke layanan cloud, berkas itu tunduk pada layanan tersebut.</p>
+<p>Saat Anda membagikan PDF, gambar, atau teks, berkas dikirim ke aplikasi yang Anda pilih dan setelah itu tunduk pada kebijakan aplikasi tersebut.</p>
+
+<h2>2. Iklan (hanya versi Google Play)</h2>
+<p>Mulai 30 hari setelah aplikasi dipasang, versi Google Play menampilkan satu banner iklan dari Google AdMob (Google Mobile Ads SDK) di akhir layar Beranda, Pencarian, dan Pengaturan. Selama 30 hari pertama, dan bagi pendukung, SDK iklan tidak dijalankan dan tidak ada permintaan iklan yang dikirim. Tidak ada iklan layar penuh, video, iklan berhadiah, atau iklan pembuka aplikasi, dan tidak ada iklan di pemindai, editor, Kartu ID, tanda tangan, Baca, atau notifikasi.</p>
+<p>Aplikasi tidak meminta izin Advertising ID (AD_ID), sehingga SDK iklan tidak menerima ID iklan Android Anda. Aplikasi juga tidak memberikan isi dokumen, kata kunci, atau data aplikasi apa pun ke SDK iklan. Untuk menayangkan dan mengukur iklan serta mencegah penipuan, SDK Google dapat mengumpulkan dan mengirim ke Google:</p>
+<ul>
+  <li>alamat IP, yang dapat dipakai Google untuk memperkirakan lokasi umum;</li>
+  <li>informasi perangkat dan aplikasi, seperti model perangkat, versi sistem operasi, bahasa, dan interaksi dengan iklan.</li>
+</ul>
+<p>Data ini diproses oleh Google, bukan oleh pengembang. Di wilayah yang mewajibkannya (misalnya Wilayah Ekonomi Eropa dan Inggris), aplikasi meminta persetujuan Anda lewat formulir Google User Messaging Platform sebelum iklan dimuat, dan Anda dapat mengubah pilihan itu kapan saja lewat Setelan → Pilihan iklan. Penjelasan lengkap:</p>
+<ul>
+  <li>Kebijakan Privasi Google: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
+  <li>Cara Google menggunakan data dari aplikasi yang menggunakan layanannya: <a href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a></li>
+</ul>
+
+<h2>3. Dukungan sekali bayar (Google Play Billing)</h2>
+<p>Semua fitur gratis. Versi Google Play menyediakan dukungan sukarela sekali bayar lewat Google Play Billing yang menghilangkan iklan selamanya; tidak ada fitur yang dikunci. Pembayaran diproses sepenuhnya oleh Google Play; pengembang tidak menerima nomor kartu atau detail pembayaran Anda, hanya catatan transaksi standar dari Google Play.</p>
+
+<h2>4. Versi tanpa layanan Google</h2>
+<p>Bila versi FOSS (di luar Google Play) tersedia, versi itu tidak memuat SDK iklan maupun Google Play Billing dan tidak memiliki izin internet, sehingga tidak dapat mengirim data apa pun keluar dari perangkat.</p>
+
+<h2>5. Akun dan penghapusan data</h2>
+<p>Aplikasi tidak memiliki akun dan pengembang tidak menyimpan data Anda di server, sehingga tidak ada data di pihak pengembang yang perlu dihapus. Anda dapat menghapus semua dokumen lewat Setelan → Hapus semua data, atau dengan mencopot pemasangan aplikasi. Untuk data yang dikumpulkan Google melalui iklan, gunakan kontrol di Akun Google Anda.</p>
+
+<h2>6. Anak-anak</h2>
+<p>Aplikasi ini ditujukan untuk pengguna dewasa dan tidak dirancang untuk anak-anak. Pengembang tidak dengan sengaja mengumpulkan data pribadi anak.</p>
+
+<h2>7. Perubahan kebijakan</h2>
+<p>Bila kebijakan ini berubah, versi terbaru dimuat di halaman ini dengan tanggal berlaku yang baru.</p>
+
+<h2>8. Kontak</h2>
+<p>Pertanyaan tentang privasi: <a href="mailto:wiraswastika@gmail.com">wiraswastika@gmail.com</a></p>
+</section>
+
+<hr>
+
+<section id="en" lang="en">
+<h1>SogeScan Privacy Policy</h1>
+<p class="meta">Effective 2 October 2026 · Android app id.inovasi.scanner · Developer: Andro Media</p>
+<p>This policy explains what data the SogeScan app ("the app") processes, why, and the choices you have.</p>
+
+<h2>Summary</h2>
+<ul>
+  <li>No account, sign-up, or login.</li>
+  <li>The documents you scan stay on your device. Scanning, text recognition (OCR), PDF creation, search, and Read Aloud run on your phone and keep working without internet. The developer never receives your documents.</li>
+  <li>Starting 30 days after installation, the Google Play version shows one Google AdMob banner ad on Home, Search, and Settings. Before that, the ad SDK is not started.</li>
+  <li>No third-party analytics, tracking, or crash-reporting SDKs.</li>
+</ul>
+
+<h2>1. Documents and on-device data</h2>
+<p>Scanned images, OCR text, PDF files, ID card copies, protective watermarks, signatures, folders, and settings are stored in the app's internal storage on your device. This data is not sent to the developer and is never given to the ad SDK.</p>
+<p>The scanner uses Google ML Kit Document Scanner, which runs inside Google Play services on your device; the app itself does not request the camera permission. Text recognition uses an ML Kit model bundled with the app. ML Kit components may send diagnostic and API usage data (such as performance and version) to Google, but they do not send your document images or text. See the <a href="https://developers.google.com/ml-kit/terms">ML Kit terms</a>.</p>
+<p>Read Aloud uses the text-to-speech engine installed on your phone. Document text is passed to that engine on the device; the engine you choose in Android settings is subject to its maker's policy.</p>
+<p>The app does not use Android automatic backup. The in-app "Back up everything" feature writes one encrypted file to a location you choose; if you choose a folder that syncs to a cloud service, that file is subject to that service.</p>
+<p>When you share a PDF, images, or text, the file goes to the app you pick and is then subject to that app's policy.</p>
+
+<h2>2. Ads (Google Play version only)</h2>
+<p>Starting 30 days after installation, the Google Play version shows one banner ad from Google AdMob (Google Mobile Ads SDK) at the end of the Home, Search, and Settings screens. During the first 30 days, and for supporters, the ad SDK is not started and no ad requests are sent. There are no full-screen, video, rewarded, or app-open ads, and no ads in the scanner, editor, ID card, signature, Read, or notifications.</p>
+<p>The app does not request the Advertising ID (AD_ID) permission, so the ad SDK does not receive your Android advertising ID. The app does not give document content, keywords, or any other app data to the ad SDK. To serve and measure ads and to prevent fraud, Google's SDK may collect and send to Google:</p>
+<ul>
+  <li>your IP address, which Google may use to estimate your general location;</li>
+  <li>device and app information, such as device model, operating system version, language, and ad interactions.</li>
+</ul>
+<p>This data is processed by Google, not by the developer. Where required (for example in the European Economic Area and the UK), the app asks for your consent through Google's User Messaging Platform form before ads load, and you can change that choice at any time in Settings → Ad choices. More information:</p>
+<ul>
+  <li>Google Privacy Policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
+  <li>How Google uses information from apps that use its services: <a href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a></li>
+</ul>
+
+<h2>3. One-time support (Google Play Billing)</h2>
+<p>Every feature is free. The Google Play version offers a voluntary one-time support payment through Google Play Billing that removes ads forever; no feature is locked. Payments are handled entirely by Google Play; the developer does not receive your card number or payment details, only the standard transaction record from Google Play.</p>
+
+<h2>4. Version without Google services</h2>
+<p>If a FOSS version (outside Google Play) is available, it contains no ad SDK and no Google Play Billing and has no internet permission, so it cannot send any data off your device.</p>
+
+<h2>5. Accounts and data deletion</h2>
+<p>The app has no accounts and the developer keeps no data about you on any server, so there is no developer-side data to delete. You can delete all documents with Settings → Delete all data, or by uninstalling the app. For data collected by Google through ads, use the controls in your Google Account.</p>
+
+<h2>6. Children</h2>
+<p>The app is intended for adults and is not designed for children. The developer does not knowingly collect personal data from children.</p>
+
+<h2>7. Changes</h2>
+<p>If this policy changes, the latest version is posted on this page with a new effective date.</p>
+
+<h2>8. Contact</h2>
+<p>Privacy questions: <a href="mailto:wiraswastika@gmail.com">wiraswastika@gmail.com</a></p>
+</section>
+</main>
+</body>
+</html>
